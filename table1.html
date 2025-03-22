@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla de Criptomonedas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f6f6f6;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #007bff;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    .positive {
+      color: green;
+      font-weight: bold;
+    }
+    .negative {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nombre</th>
+        <th>Símbolo</th>
+        <th>Precio</th>
+        <th>% 1h</th>
+        <th>% 24h</th>
+        <th>% 7d</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Bitcoin</td>
+        <td>BTC</td>
+        <td>$3,782...</td>
+        <td class="negative">-0.64%</td>
+        <td class="negative">-9.37%</td>
+        <td class="positive">6.64%</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>XRP</td>
+        <td>XRP</td>
+        <td>$0.370...</td>
+        <td class="negative">-1.59%</td>
+        <td class="negative">-13.12%</td>
+        <td class="positive">11.36%</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Ethereum</td>
+        <td>ETH</td>
+        <td>$125.06</td>
+        <td class="negative">-1.66%</td>
+        <td class="negative">-17.34%</td>
+        <td class="positive">32.12%</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Bitcoin Cash</td>
+        <td>BCH</td>
+        <td>$160.70</td>
+        <td class="negative">-1.22%</td>
+        <td class="negative">-19.59%</td>
+        <td class="positive">69.72%</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Stellar</td>
+        <td>XLM</td>
+        <td>$0.120...</td>
+        <td class="negative">-1.45%</td>
+        <td class="negative">-11.88%</td>
+        <td class="positive">10.23%</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>EOS</td>
+        <td>EOS</td>
+        <td>$2.47</td>
+        <td class="negative">-0.98%</td>
+        <td class="negative">-16.54%</td>
+        <td class="negative">-2.05%</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
